@@ -1,9 +1,13 @@
-import Header from "./components/leyouts/Header";
+
+import Hero from "./components/Hero";
+import Header from "./components/layouts/Header";
 
 function App() {
   return (
     <>
       <Header />
+      <Hero />
+ 
     </>
   );
 }
