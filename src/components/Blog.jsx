@@ -15,6 +15,7 @@ function Blog() {
               </div>
             </div>
             <div className="text flex justify-center w-96 rounded-lg bg-gray-200">
+              
               <div class="image w-full h-full bg-gray-400"></div>
               <div className="course-taxt p-6">
                 <h3 className="mb-2 text-2xl font-bold text-gray-800">Learn CSS</h3>
