@@ -7,8 +7,7 @@ function Header() {
     <header className=" bg-[#212529] text-white">
       <div
         className="
-     
-      container flex justify-between items-center p-8"
+      container m-auto flex justify-between items-center p-6"
       >
         <h1 className="text-4xl font-bold">R</h1>
         <nav className="relative">
@@ -17,7 +16,7 @@ function Header() {
           </button>
 
           <ul
-            className={`absolute right-0 bg-[#212529] flex flex-col items-center space-y-4 text-2xl py-4 transition-all duration-300 ease-in-out ${
+            className={`absolute right-0 bg-[#212529] flex flex-col items-center   transition-all duration-300 ease-in-out ${
               menuOpen ? "top-16 opacity-100" : "top-[-300px] opacity-0"
             } md:static md:flex md:flex-row md:space-x-8 md:space-y-0 md:bg-transparent md:opacity-100`}
           >

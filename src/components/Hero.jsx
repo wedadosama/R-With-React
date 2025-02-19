@@ -1,8 +1,8 @@
 import Button from "../components/Button";
 function Hero() {
   return (
-    <section id="home" className="bg-[#dee2e6] py-16">
-      <div className="container m-auto px-4 flex justify-center items-center gap-24 flex-wrap">
+    <section id="home" className="bg-[#dee2e6] ">
+      <div className="container m-auto px-4 flex justify-center items-center gap-8 flex-wrap">
         <div>
           <h1 className="text-[40px] font-bold">
             Hello <br />
