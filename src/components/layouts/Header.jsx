@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,29 +23,29 @@ function Header() {
             } md:static md:flex md:flex-row md:space-x-8 md:space-y-0 md:bg-transparent md:opacity-100`}
           >
             <li>
-              <a href="index.html" className="hover:text-gray-400">
+              <Link to="/" className="hover:text-gray-400">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="index.html" className="hover:text-gray-400">
+              <Link to="/about" className="hover:text-gray-400">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="index.html" className="hover:text-gray-400">
+              <Link to="/services" className="hover:text-gray-400">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="index.html" className="hover:text-gray-400">
-                Portfolio
-              </a>
+              <Link to="/blog" className="hover:text-gray-400">
+                Blog
+              </Link>
             </li>
             <li>
-              <a href="index.html" className="hover:text-gray-400">
+              <Link to="/contact" className="hover:text-gray-400">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
