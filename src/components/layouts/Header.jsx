@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
-
+import{Link} from "react-router-dom"
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +10,7 @@ function Header() {
         className="
       container m-auto flex justify-between items-center p-6"
       >
-        <h1 className="text-4xl font-bold">R</h1>
+        <Link to="/" className="text-4xl font-bold">R</Link>
         <nav className="relative">
           <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden focus:outline-none">
             <img src="/icons/menu.webp" alt="Menu" className="w-10 h-10" />
@@ -23,29 +22,29 @@ function Header() {
             } md:static md:flex md:flex-row md:space-x-8 md:space-y-0 md:bg-transparent md:opacity-100`}
           >
             <li>
-              <Link to="/" className="hover:text-gray-400">
+              < a href="#home" className="hover:text-gray-400">
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/about" className="hover:text-gray-400">
+              <a href="#about" className="hover:text-gray-400">
                 About
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/services" className="hover:text-gray-400">
+              <a href="#services" className="hover:text-gray-400">
                 Services
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/blog" className="hover:text-gray-400">
+              <a href="#blog" className="hover:text-gray-400">
                 Blog
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-gray-400">
+              <a href="#contact" className="hover:text-gray-400">
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>

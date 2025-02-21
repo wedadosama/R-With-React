@@ -2,7 +2,7 @@ import Button from "./Button";
 
 function About() {
   return (
-    <section id="About US" className="mb-6">
+    <section id="about" className="mb-6">
       <div className="container m-auto flex items-center justify-center gap-16 flex-wrap mt-6">
         <div className="About-text">
           <h2 className="text-5xl font-bold">
@@ -19,13 +19,12 @@ function About() {
             bibendum eros massa, sit amet tempor sem lobortis non.
           </p>
           <div className="flex gap-4">
-        <a className=" bg-[#212529] text-white rounded-lg mt-5 p-4 hover:bg-white hover:text-[#212529] inline-block" href="index.html">
-            View CV
-          </a>
-          <Button/>
+            <a className=" bg-[#212529] text-white rounded-lg mt-5 p-4 hover:bg-white hover:text-[#212529] inline-block" href="index.html">
+              View CV
+            </a>
+            <Button />
+          </div>
         </div>
-        </div>
-       
       </div>
     </section>
   );

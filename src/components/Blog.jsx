@@ -1,7 +1,7 @@
 function Blog() {
   return (
     <>
-      <section className="blog mb-4">
+      <section id="blog" className="blog mb-4">
         <div className="container m-auto">
           <h2 className="text-center text-6xl font-bold">Blog</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 max-w-5xl mx-auto">
